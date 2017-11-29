@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.splass.choirul.splass">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".Menu" />
+        <activity android:name=".carnivora1" />
+        <activity android:name=".herbivora1" />
+        <activity android:name=".Omnivora1" />
+        <activity android:name=".carnivora2" />
+        <activity android:name=".herbivora2" />
+        <activity android:name=".omnivora2" />
+        <activity android:name=".omnivora3" />
+        <activity android:name=".omnivora4" />
+        <activity android:name=".omnivora5" />
+        <activity android:name=".omnivora6" />
+        <activity android:name=".omnivora7" />
+        <activity android:name=".herbivora3" />
+        <activity android:name=".herbivora4" />
+        <activity android:name=".herbivora5" />
+        <activity android:name=".herbivora6" />
+        <activity android:name=".herbivora7" />
+        <activity android:name=".carnivora3" />
+        <activity android:name=".carnivora4" />
+        <activity android:name=".carnivora5" />
+        <activity android:name=".carnivora6" />
+        <activity android:name=".carnivora7"></activity>
+    </application>
+
+</manifest>
